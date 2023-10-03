@@ -1,0 +1,52 @@
+@media (min-width=768px){
+
+}
+header{
+  font-size: 2rem;
+  text-align: left;
+}
+#main-doc{
+  background-color:#92A9BD;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 220px;
+  width: 100%;
+}
+#main-doc header{
+  color: #FFEFEF;
+}
+#navbar{
+display: flex;
+align-items: left;
+flex-direction: column;
+position: fixed;
+top: 0;
+left:0;
+padding: 40px;
+width: 125px;
+height: 100%;
+background-color: #D3DEDC;
+
+
+}
+#navbar header{
+  display: block;
+  font-size: 1.5rem;
+  width: auto;
+  height: auto;
+  color: #7C99AC;
+}
+.nav-link{
+  margin-top: auto;
+  text-align: left;
+  
+}
+code{
+  display: block;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 4%;
+  margin: 10px 20px;
+}

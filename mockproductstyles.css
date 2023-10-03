@@ -1,0 +1,156 @@
+/* 8.30.22 Attempt at styling STARTS here*/
+
+/* This code will "set a standard for all browsers. Not all browsers have the same displays for elements. Maybe <p> has different margins*/
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+  }
+  
+  html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  /*main{
+    display: grid;
+    grid-template-columns: minmax(2rem,1fr) minmax(min-content, 90rem) minmax( 2rem,1fr);
+    row-gap: 3rem;*/
+  @media screen only and (min-width: 500px){
+    .video{
+      width: auto;
+      height: auto;
+    }
+  }
+  
+  main{
+    display: grid;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  header img{
+    grid-column: 1/ 2;
+    width: 100%;
+    max-width: 25rem; 
+  }
+  #nav-bar{
+    position: fixed;
+    top:0;
+    right: 0;
+  }
+  header nav{
+    background-color: lightgrey;
+  grid-column:  3/-1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  }
+  .form {
+    display: grid;
+    grid-template-rows: repeat(3, min-content);
+    gap: 2rem;
+    padding-top: 2rem;
+    place-items: center;
+  }
+  .form h1{
+    font-size: 2.5rem
+  }
+  #email{
+    width: 300px
+  }
+  #submit{
+  background: orange;
+  border-color: orange;
+  color: black;
+  height: 50px;
+  width: 100px;
+  font-style: arial;
+  }
+  
+  #features{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+  }
+  #features h1{
+    padding-top: 1.5rem;
+    font-size: 2rem;
+  }
+  .video{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+  }
+  .Pricing-header{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+  }
+  
+  #pricing{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+  }
+  .tenor, .bass, .valve{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    padding: 4rem;
+    background-color: lightgrey;
+    border: solid 1px;
+  }
+  .tenor h2, .bass h2, .valve h2{
+    font-size: 2rem
+  }
+  /* 8.30.22 Attempt at styling ENDS here*/
+  
+  
+  /*Previous attempt of code starts here
+  
+  ----------------------------------
+  /*Here goes my CSS. I stated in my html file that CSS is definetly harder. Here goes nothing.*/
+  
+  /*I need a media query to pass this I should add it at the end*/
+  
+  /*First I will style the background.
+  
+  Then I will style each section
+  Lets see how that goes */
+  
+  
+  /* it went horrible. Let me uhh....do some more practice and I will be back...* 8.29.22
+  
+  
+  
+  *{
+    background-color: #dfe3e5;
+  }
+  
+  #header-img{
+    width: 20rem;
+    padding: 10px
+  }
+  header nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: row
+  }
+  
+  }
+  -------------------------------------
+  /* This is where previous code ends*/

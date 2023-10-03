@@ -1,0 +1,140 @@
+<!---------------------------------- 
+  8/26/22 
+    I am Diego Mendoza and this code is for me to create a product landing page similar to the one that ,freeCodeCamp.org, provides. 
+  Here you can find the reference:
+  
+  https://product-landing-page.freecodecamp.rocks/#features
+
+This landing page will mainly challenge my CSS skills. Specifically the Grid and Flow displays. I am not so worried about my HTML here as I am feeling confident in it.
+
+  I will keep inputting comments here in my code to help organize and attempt to explain my code
+
+  see you below!
+  -Diego
+  ---------------------------------->
+
+  <!DOCTYPE html>
+  <html lang="en">
+    
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="CSS/mockproductstyles.css">
+      <title>Original Trombones Mock Product Landing Page</title>
+    </head>
+     <body>
+      <main>
+        <header  id="header">
+  
+          <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          id="header-img" 
+          alt="image of logo"
+          loading="lazy"
+          >       
+          <nav id="nav-bar">
+            
+            <a class="nav-link"
+               href="#features">
+              Features
+              </a>
+  
+            <a class="nav-link"
+              href="#video">
+              How It Works
+              </a>
+            <a class="nav-link"
+               href="#pricing">
+              Pricing
+              </a>
+          </nav>
+        
+        </header>
+      <section class="form">
+        <h1>Handcrafted, home-made masterpieces</h1>
+          <form id="form" 
+          action="https://www.freecodecamp.com/email-submit">
+            <input id="email"
+            name="email" 
+            type="email" 
+            placeholder="Enter your email address"/>
+          
+            
+            <input id="submit" 
+            type="submit" 
+            Value="GET STARTED">
+            </input>
+            
+        </section>
+  
+        <section id="features">
+          <div>
+            <i>icon</i>
+            <h1>Premium Materials</h1>
+            <p>
+              Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+            </p>
+          </div>
+          <div>
+            <h1> Fast Shipping </h1>
+            <p> We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied </p>
+            </div>  
+            <div>
+              <h1>
+                Quality Assurance
+                </h1>
+               <p>
+                 For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+                 </p> 
+  
+            </div>
+  
+        </section>
+            <div class="video">
+              <iframe 
+  loading="lazy" id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <h1 class="Pricing-header">Pricing</h1>
+        <section id="pricing">
+          
+          <div class="tenor">
+            <h2>Tenor Trombone</h2>
+            <h1>$600</h1>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+            <input type="button" value="SELECT" target="_blank">
+          </div>
+          <div class="bass">
+            <h2>Bass Trombone</h2>
+            <h1>$900</h1>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+            <input type="button" value="SELECT" target="_blank">
+          </div>
+          <div class="valve">
+            <h2>Valve Trombone</h2>
+            <h1>$1200</h1>
+            <p>Plays similar to a Trumpet</p>
+            <p>Great for Jazz Bands</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+            <input type="button" value="SELECT" target="_blank">
+          </div>
+        </section>
+        <section>
+        </section>
+      </main> 
+      
+      <footer id="footer">
+        <nav>
+          <a href="_blank">Pricing</a>
+          <a href="_blank">Terms</a>
+          <a href="_blank">Contact</a>
+        </nav>
+        <p>Copyright 2016, Original Trombones</p>
+        </footer> 
+    </body>   
+  </html>
