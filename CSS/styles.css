@@ -493,8 +493,7 @@ form{
   
   
 
-  /* Start Media Query */
-  @media (max-width: 810px) {
+ @media (max-width: 810px) {
    
     #mobile{
         display: flex;
